@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 import { Heroe } from '../heroe';
 import { HeroeService } from '../shared/heroe.service';
 @Component({
@@ -18,7 +18,7 @@ export class SearchComponent implements OnInit {
     casa: ""
   }
 
-  constructor(private heroeService:HeroeService,private activatedRoute:ActivatedRoute) { 
+  constructor(private heroeService:HeroeService,private activatedRoute:ActivatedRoute, private router: Router) { 
     this.activatedRoute.params.subscribe(params=> {
       this.nombreh=params['nombreh'];
       this.indice= this.heroeService.searchUnHeroe(this.nombreh);
@@ -31,6 +31,15 @@ export class SearchComponent implements OnInit {
   }
 
   ngOnInit(): void {
+    if (this.indice == -1) {
+      this.redireccionar();
+    }
+  }
+
+  redireccionar(): void {
+    setTimeout(() => {
+      this.router.navigate(['/heroes'])
+    }, 6000);
   }
 
 }

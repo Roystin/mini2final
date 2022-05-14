@@ -1,9 +1,15 @@
-<div class="row animated fadeIn fast" *ngIf="indice == -1"> 
+<div class="row animated fadeIn fast" *ngIf="indice == -1">
     <div class="col md-12">
-        <div class="alert alert-info" role="alert">
-            No existen resultados de {{nombreh}}
+        <div class="alert alert-danger" role="alert">
+            <p class="text-center">No existen resultados de <b>{{nombreh}}</b></p>
+            <p class="text-center">Redirijiendo a la pantalla de Heroes...</p>
+            <div class="d-flex flex-row justify-content-center alig-items-center">
+                <div class="spinner-border text-danger" style="width: 5rem; height: 5rem;" role="status">
+                    <span class="sr-only text-center">Redirijiendo a la pantalla de Heroes...</span>
+                </div>
+            </div>
         </div>
     </div>
 </div>
 
-<app-unheroe *ngIf="indice != -1" [heroe]='miheroe'></app-unheroe>
+<app-unheroe *ngIf=" indice !=- 1 " [heroe]='miheroe'></app-unheroe>
