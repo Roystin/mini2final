@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import swal from 'sweetalert';
 
 @Component({
   selector: 'app-creditos',
@@ -14,8 +15,7 @@ export class CreditosComponent implements OnInit {
 
   enviar()
   {
-    
+    swal("Buen Trabajo", "Se ha enviado el formulario", "success");
   }
-
 
 }
