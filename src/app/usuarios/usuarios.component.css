@@ -1,0 +1,16 @@
+.table{
+    text-align: center;
+    padding: 20px;
+    margin: 40px auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px 4px rgb(19 35 47 / 30%);
+    width: 100%;
+    background-image: url(../../assets/img/fondo1.jpg) !important;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: whitesmoke;
+    font-size: 1.5em;
+    text-shadow: 1.5px 3px black;
+}

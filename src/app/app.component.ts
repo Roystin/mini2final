@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-
+import { FormControl } from "@angular/forms";
 
 @Component({
   selector: 'app-root',
@@ -7,5 +7,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'heroes';
+  title = "basic-form";
+
+  email = new FormControl(""); // <----
 }

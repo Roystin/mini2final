@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 #video{
     background: ghostwhite;
     text-align: center;
@@ -20,10 +20,10 @@
     justify-content: center;
     align-items: center;
     
-=======
+}
 div{
     display: flex;
     justify-content: center;
     align-items: center;
->>>>>>> efd394fa0ee28b530c44b1f818466766be3d3fc5
+
 }
