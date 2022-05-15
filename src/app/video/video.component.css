@@ -1,0 +1,22 @@
+#video{
+    background: ghostwhite;
+    text-align: center;
+    margin: 40px auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px 4px rgb(19 35 47 / 30%);
+    width: 80%;
+    padding: 10px;
+
+    background-image: url(../../assets/img/fondo1.jpg) !important;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}

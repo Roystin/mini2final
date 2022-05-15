@@ -1,0 +1,35 @@
+.about {
+  /* background: ghostwhite; */
+  text-align: center;
+  color: whitesmoke;
+  font-size: 1.5em;
+  text-shadow: 1.5px 3px black;
+  margin: 40px auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px 4px rgb(19 35 47 / 30%);
+  width: 100%;
+  padding: 20px;
+  background-image: url(../../assets/img/fondo1.jpg) !important;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.padre {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  text-align: center;
+}
+
+#fotoabout{
+    min-width: 50px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px 4px rgb(19 35 47 / 30%);
+}
+
+#fondo{
+    padding: 30px;
+}
