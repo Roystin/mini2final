@@ -1,22 +1,18 @@
 <table class="table">
     <thead>
       <tr>
-        <th>#</th>
-        <th>Firstname</th>
-        <th>Lastname</th>
-        <th>Age</th>
-        <th>City</th>
-        <th>Country</th>
+        <th>Name</th>
+        <th>Date</th>
+        <th>Email</th>
+        <th>Sexo</th>
       </tr>
     </thead>
     <tbody>
-      <tr>
-        <td>1</td>
-        <td>Anna</td>
-        <td>Pitt</td>
-        <td>35</td>
-        <td>New York</td>
-        <td>USA</td>
+      <tr *ngFor="let person of registros">
+        <td>{{person.nombre}}</td>
+        <td>{{person.fecha}}</td>
+        <td>{{person.email}}</td>
+        <td>{{person.sexo}}</td>
       </tr>
     </tbody>
   </table>

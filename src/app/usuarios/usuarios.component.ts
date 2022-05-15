@@ -8,11 +8,22 @@ import { Component, OnInit } from '@angular/core';
 export class UsuariosComponent implements OnInit {
 
   base : string[] = [];
-  
+  registros : usuarios[] = [];
+  friend : string[] = [];
+  constructor() { 
 
-  constructor() { }
+  this.registros = JSON.parse(localStorage.getItem("usuario") || "[{}]");
+  
+  
+  }
 
   ngOnInit(): void {
   }
+}
 
+interface usuarios{
+  nombre:string,
+  sexo:string,
+  email:string,
+  fecha: string
 }
