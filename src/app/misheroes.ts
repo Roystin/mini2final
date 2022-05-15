@@ -50,6 +50,47 @@ export const HEROES:Heroe[]=[
         img: "assets/img/wolverine.png",
         aparicion: "1974-11-01",
         casa: "Marvel"
-      }
-
+      },
+      {
+        nombre: "Superior Spiderman",
+        bio: "Despues de la muerte de Peter Parker, en el climax de la historia de Dying Wish, el Doctor Octopus implanta su mente en el cuerpo de Peter Parker, decidio nombrarse a si mismo Superior Spiderman al ser ambos un mejor super heroe y persona de lo que fue Parker, Octavius gana la aprobacion publica cuando derrota a los Seis Siniestros.",
+        img: "assets/img/Superior.png",
+        aparicion: "01-2013",
+        casa: "Marvel"
+      },
+      {
+        nombre: "Capitan America",
+        bio: "Steve Rogers un chico preocupado por el ascenso de Adolfo Hitler intenta enlistarse en las fuerzas Armadas, pero es rechazado por su fragil cuerpo, su decision atrae la atencion del del General Chester Phillips, dandole la oportunidad a Rogers de ser usado en le Proyecto Renacimiento, usandolo como sujeto de prueba para el el Suero Supersoldado, el suero es un exito y lo transforma en un supersoldado, dandole fuerza, agilidad , resistencia e inteligencia maxima, conviritendose asi un simbolo en la Segunda Guerra Mundial convirtiendose en el Capitan America.",
+        img: "assets/img/CapitanAmerica.png",
+        aparicion: "03-1941",
+        casa: "Marvel",
+      },
+      {
+        nombre: "Flash",
+        bio: "Barry Allen, es un cientifico que adquirio sus poderes de supervelicidad al ser alcanzado por un rayo cuando este estaba bañado en productos quimicos, como primer alias adopto el nombre de El Corredor Escarlata, despues de leer un comic sobre el primer Flash(Jay Garrick).",
+        img: "assets/img/Flash.png",
+        aparicion: "01-1940",
+        casa: "DC",
+      },
+     {
+      nombre: "Black Widow",
+      bio: "Natasha Romanoff nacio en Stalingrado, es una agente rusa entrenada como espia, artista marcial y francotiradora, equipada con un arsenal de armas de alta tecnologia, que incluye un par de armas energeticas montadas en la muñeca y apodada Piquete de la Viuda, eventualmente desertaria a Estados Unidos por razones amorosas por el arquero criminal convertido en superheroe Hawkeye.",
+      img: "assets/img/BlackWidow.png",
+      aparicion: "04-1964",
+      casa: "Marvel",
+     },
+     {
+      nombre: "HawkGirl",
+      bio: "Shiera Hall es un agente de policia alienigena que vino a la tierra junto con el Hombre Halcon, provenientes del planeta Thanagar que vienen a la tierra con el fin de estudiar tecnicas policiacas ",
+      img: "assets/img/HawkGirl.png",
+      aparicion: "01-1940",
+      casa: "DC",
+     },
+     {
+      nombre: "Deadpool",
+      bio: "Wade Wilson, un joven canadiense con cancer, se le ofrece la opcion de unirse al Departamento K, se convierte en sujeto de pruebas de un suero derivado de otro agente del departamento Wolverine, su cancer fue detenido y adquirio invulneravibilidad haciendolo practicamente inmortal.",
+      img: "assets/img/Deadpool.png",
+      aparicion: "02-1991",
+      casa: "Marvel",
+     }
 ];

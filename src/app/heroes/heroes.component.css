@@ -1,0 +1,31 @@
+@media (max-width: 641px) {
+  .column {
+    text-align: center;
+
+      column-count: 2;
+  }
+}
+@media (min-width: 647px) and (max-width: 817px) {
+  .column {
+    text-align: center;
+
+      column-count: 3;
+  }
+}
+
+@media (min-width: 818px) and (max-width: 1024px) {
+  .column {
+    text-align: center;
+
+      column-count: 4;
+  }
+}
+
+@media (min-width: 1500px) {
+  .column {
+    
+      text-align: center;
+      column-count: 5;
+  }
+}
+

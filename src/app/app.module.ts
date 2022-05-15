@@ -13,6 +13,7 @@ import { UnheroeComponent } from './unheroe/unheroe.component';
 import { UsuariosComponent } from './usuarios/usuarios.component';
 import { VideoComponent } from './video/video.component';
 import { CreditosComponent } from './creditos/creditos.component';
+import { NgxMasonryModule } from 'ngx-masonry';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { CreditosComponent } from './creditos/creditos.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule, 
+    NgxMasonryModule
   ],
   providers: [],
   bootstrap: [AppComponent]
