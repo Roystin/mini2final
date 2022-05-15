@@ -1,32 +1,13 @@
 <h1 class="text-center">Heroes <small>Marvel y DC</small></h1>
-<div id="body">
-  <div class="card-columns">
-    <!-- Grid row -->
-    <div class="row">
-      <!-- Grid column -->
-      <div class="column mb-5 px-2">
-        <div class="card" *ngFor="let h of misHeroes; let i = index">
-          <!--Card Primary-->
-          <img src="{{ h.img }}" class="card-img-top" alt="..." />
-          <div class="card-body">
-              <div class="card-body">
-                <h5 class="card-title">{{ h.nombre }}</h5>
-                <p class="card-text">{{ h.bio }}</p>
-                <p class="card-text">
-                  <small class="text-muted">{{ h.aparicion }}</small>
-                </p>
-                <a
-                  [routerLink]="['/heroe', i]"
-                  class="mb-3 btn btn-outline-primary btn-block"
-                  >Ver Mas</a
-                >
-              </div>
-            <!--/.Card Primary-->
-          </div>
-          <!-- Grid column -->
-          <!-- Grid column -->
-        </div>
-      </div>
+
+<div class="card-columns">
+    <div class="card" *ngFor="let h of misHeroes, let i=index">
+        <img src={{h.img}} class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">{{h.nombre}}</h5>
+          <p class="card-text">{{h.bio}}</p>
+          <p class="card-text"><small class="text-muted">{{h.aparicion}}</small></p>
+          <a [routerLink]="['/heroe',i]" class="mb-3 btn btn-outline-primary btn-block">Ver Mas</a>
     </div>
-  </div>
+
 </div>
