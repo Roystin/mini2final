@@ -12,4 +12,10 @@ export class CreditosComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  enviar()
+  {
+    
+  }
+
+
 }
